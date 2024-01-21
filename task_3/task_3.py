@@ -112,7 +112,7 @@ def main(text_file1, text_file2):
     ]
 
     # Вивід таблички
-    print(tabulate(table, headers="firstrow", tablefmt="fancy_grid"))
+    print(tabulate(table, headers="firstrow", tablefmt="github"))
 
     # Вивід графіка
     plot_results(
